@@ -7,12 +7,12 @@ php-switcher is to switch Homebrew php.
 
 With [bpkg](https://github.com/bpkg/bpkg) do:
 
-    % bpkg install rochefort/php-switcher.sh
+    $ bpkg install rochefort/php-switcher.sh
 
 
 ## Usage
 
-  % php-switcher php56
+    $ php-switcher php56
 
 
 ## Contributing
