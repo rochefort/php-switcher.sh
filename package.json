@@ -3,5 +3,5 @@
   "version": "0.0.1",
   "description": "php-switcher is to switch Homebrew php.",
   "scripts": [ "php-switcher.sh" ],
-  "install": "chmod +x php-switcher.sh && install -b php-switcher.sh ${PREFIX:-/usr/local}/bin/php-switcher",
+  "install": "chmod +x php-switcher.sh && install -b php-switcher.sh ${PREFIX:-/usr/local}/bin/php-switcher"
 }
