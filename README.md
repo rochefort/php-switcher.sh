@@ -9,6 +9,10 @@ With [bpkg](https://github.com/bpkg/bpkg) do:
 
     $ bpkg install rochefort/php-switcher.sh
 
+Then add the following to httpd.conf 
+```
+LoadModule php5_module    /usr/local/lib/php/libphp5.so
+```
 
 ## Usage
 
