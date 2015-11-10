@@ -1,6 +1,7 @@
 # php-switcher.sh
 
-php-switcher is to switch Homebrew php.
+php-switcher is to switch Homebrew php versions.  
+And this create a symbolic link `/usr/local/lib/php/libphp5.so` as switched version liphp5.so.
 
 
 ## Installation
@@ -8,6 +9,10 @@ php-switcher is to switch Homebrew php.
 With [bpkg](https://github.com/bpkg/bpkg) do:
 
     $ bpkg install rochefort/php-switcher.sh
+
+If you use apache, you need to insert the following a line into your Apache httpd.conf configuration file.  
+
+    LoadModule php5_module "/usr/local/lib/php/libphp5.so"
 
 
 ## Usage
